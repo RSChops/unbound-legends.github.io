@@ -56,6 +56,11 @@
                 "[game theme] genesys terrinoth": "Genesys Terrinoth",
                 "[game theme] genesys android": "Genesys Android"
             },
+            "game-token-type": {
+                "Explorer": "Explorer",
+                "Adventurer": "Adventurer",
+                "Champion": "Champion"
+            },
             "crit-tables": {
                 "Genesys FFG Crit Table": "Table de Critiques Genesys",
                 "Genesys FFG Vehicle Crit Table": "Table de Critiques Genesys - Véhicules",
@@ -89,6 +94,8 @@
                 "Lightside": "Côté Lumineux",
                 "Darkside": "Côté Obscur",
                 "Light/Dark": "Lumineux/Obscur",
+                "Upgrade": "Améliorer Aptitude",
+                "Negative Upgrade": "Améliorer Difficulté",
                 "D4": "D4",
                 "D6": "D6",
                 "D8": "D8",
@@ -98,6 +105,16 @@
                 "D100": "D100",
                 "Polyhedral": "Polyhédrale",
                 "Modifier": "Modifier"
+            },
+            "patreon-tier": {
+                "the-fan": "The Fan",
+                "the-deuce": "The Deuce",
+                "high-fiver": "High Fiver",
+                "scout": "Scout",
+                "explorer": "Explorer",
+                "adventurer": "Adventurer",
+                "champion": "Champion",
+                "none": "Aucun"
             },
             "character-attributes": {
                 "starwars": {
@@ -160,9 +177,90 @@
             "view-button-text": "Voir",
             "share-button-text": "Partager",
             "delete-button-text": "Supprimer"
+        },
+        "dice-meta-type": {
+            "weapon": "Arme"
         }
     },
     "user": {
+        "components": {
+            "patreon-link": {
+                "card-title": "Patreon",
+                "patreon-label": "Patreon",
+                "link-button-can-link": "Lier",
+                "link-button-can-unlink": "Délier",
+                "your-token-label": "Votre Token:",
+                "attached-game-label": "Partie liée:",
+                "token-not-linked": "Aucune partie",
+                "unlink-patreon-confirmation-title": "Délier Patreon",
+                "unlink-patreon-confirmation-message": "Etes-vous sûr de vouloir couper la connexion vers votre compte Patreon ? Cette action annulera tous les bénéfices de Patreon de votre compte.",
+                "unlink-patreon-confirmation-cancel-button-text": "Annuler",
+                "unlink-patreon-confirmation-confirm-button-text": "Délier",
+                "unlink-patreon-confirmation-successful": "Compte utilisateur lié",
+                "remaining-cooldown": "Refroidissement de votre Token en cours"
+            },
+            "discord-link": {
+                "card-title": "Discord",
+                "user-label": "Utilisateur",
+                "link-button-can-link": "Lier",
+                "link-button-can-unlink": "Délier",
+                "honorary-titles-label": "Titres honorifiques",
+                "unlink-discord-confirmation-title": "Délier Discord",
+                "unlink-discord-confirmation-message": "Etes-vous sûr de vouloir couper la connexion vers votre compte Discord ? Cette action supprimera toutes les parties liées à Discord de votre profil .",
+                "unlink-discord-confirmation-cancel-button-text": "Annuler",
+                "unlink-discord-confirmation-confirm-button-text": "Délier",
+                "unlink-discord-confirmation-successful": "Vous avez rendu la liberté à votre compte Discord"
+            },
+            "settings": {
+                "card-title": "Paramètres utilisateur",
+                "dice-type-select-placeholder": "Type Dés par défaut",
+                "dice-input-style-select-placeholder": "Entrée Dés Discord",
+                "theme-select-placeholder": "Theme",
+                "language-select-placeholder": "Langue",
+                "selected-dice-type-alt": "Type Dés selectionnés",
+                "selected-dice-scheme-alt": "Schéma Dés selectionné",
+                "selected-site-theme-alt": "Theme Site selectionné"
+            },
+            "name-and-password": {
+                "card-title": "Nom et Mot de passe",
+                "username-label": "Identifiant",
+                "email-label": "Email",
+                "facebook-login-enabled": "Identifiant Facebook autorisé",
+                "google-login-enabled": "Identifiant Google autorisé",
+                "password-enabled": "Mot de passe autorisé",
+                "no-password-enabled": "Pas de Mot de passe autorisé",
+                "enable-password-button-text": "Autoriser Mot de passe",
+                "change-password-button-text": "Modifier Mot de passe"
+            }
+        },
+        "overlays": {
+            "update-email": {
+                "modal-title": "Modifier Email",
+                "input-placeholder": "Email",
+                "confirm-button-text": "Modifier",
+                "confirm-button-text-invalid": "Invalide",
+                "confirm-button-text-already-taken": "Déjà utilisé",
+                "cancel-button-text": "Annuler"
+            },
+            "update-password": {
+                "modal-title-update": "Modifier Mot de passe",
+                "modal-title-enable": "Autoriser Mot de passe",
+                "input-current-password-placeholder": "Mot de passe actuel",
+                "input-new-password-placeholder": "Nouveau Mot de passe",
+                "input-confirm-password-placeholder": "Confirmer Mot de passe",
+                "cancel-button-text": "Annuler",
+                "confirm-button-text-update": "Modifier",
+                "confirm-button-text-enable": "Autoriser"
+            },
+            "update-username": {
+                "modal-title": "Modifier Identifiant",
+                "input-placeholder": "Identifiant",
+                "confirm-button-text": "Modifier",
+                "confirm-button-text-invalid": "Invalide",
+                "confirm-button-text-already-taken": "Déjà utilisé",
+                "cancel-button-text": "Annuler"
+            }
+        },
         "pages": {
             "profile": {
                 "profile-header": "Informations du profil",
@@ -1390,6 +1488,110 @@
                 "Vigilance": "Vigilance",
                 "Warfare": "Stratégie",
                 "Xenology": "Xénologie"
+            }
+        },
+        "gr-age": {
+            "enums": {
+                "character-stat": {
+                    "Speed": "Vitesse",
+                    "Defense": "Défense",
+                    "ArmorRating": "Valeur Armure",
+                    "Health": "Santé",
+                    "TotalHealth": "Santé Totale",
+                    "Level": "Niveau",
+                    "Experience": "Expérience",
+                    "Gold": "Or",
+                    "Silver": "Argent",
+                    "Copper": "Cuivre",
+                    "MagicPoints": "Points de Magie"
+                }
+            },
+            "components": {
+                "action-bar": {
+                    "edit": "Edit",
+                    "clone": "Clone",
+                    "back-to-list": "Back to List",
+                    "save": "Save",
+                    "cancel": "Cancel"
+                },
+                "details": {
+                    "character-details": "Character Details",
+                    "background": "Background",
+                    "goals": "Goals",
+                    "ties": "Ties"
+                },
+                "details-background": {
+                    "background": "Background"
+                },
+                "details-goals": {
+                    "goals": "Goals"
+                },
+                "details-ties": {
+                    "ties": "Ties"
+                },
+                "equipment": {
+                    "equipment-and-gear": "Equipment & Gear",
+                    "quantity": "Quantity",
+                    "weight": "Weight",
+                    "cost": "Cost",
+                    "notes": "Notes",
+                    "carrying": "Carrying",
+                    "add-equipment": "Add Equipment"
+                },
+                "notes": {
+                    "notes": "Notes"
+                },
+                "notes-private": {
+                    "notes-private": "Private Notes",
+                    "these-are-private": "These notes are only visible to you and will not be visible to anyone else"
+                },
+                "player-header": {
+                    "placeholder-name": "Name",
+                    "placeholder-image-url": "Image URL",
+                    "placeholder-race": "Race",
+                    "placeholder-class": "Class",
+                    "placeholder-social-class": "Background/Social Class",
+                    "placeholder-specialization": "Specialization",
+                    "placeholder-age": "Age",
+                    "placeholder-weight": "Weight",
+                    "placeholder-height": "Height",
+                    "placeholder-notable-features": "Notable Features",
+                    "label-race": "Race",
+                    "label-class": "Class",
+                    "label-social-class": "Background/Social Class",
+                    "label-specialization": "Specialization",
+                    "label-age": "Age",
+                    "label-weight": "Weight",
+                    "label-height": "Height",
+                    "label-notable-features": "Notable Features"
+                },
+                "talents": {
+                    "talents": "Talents",
+                    "specializations": "Specializations",
+                    "description": "Description",
+                    "novice": "Novice",
+                    "journeyman": "Journeyman",
+                    "master": "Master"
+                },
+                "weapons": {
+                    "weapons": "Weapons",
+                    "attack": "Attack",
+                    "damage": "Damage",
+                    "range": "Range",
+                    "reload": "Reload",
+                    "equipped": "Equipped",
+                    "weapon-type": "Weapon Type",
+                    "weapon-group": "Weapon Group",
+                    "trained": "Trained",
+                    "yes": "Yes",
+                    "no": "No",
+                    "ability": "Ability",
+                    "focus": "Focus",
+                    "talents": "Talents",
+                    "magic": "Magic",
+                    "notes": "Notes",
+                    "price": "Price"
+                }
             }
         },
         "overlays": {
