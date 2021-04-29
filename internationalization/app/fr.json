@@ -1508,54 +1508,54 @@
             },
             "components": {
                 "action-bar": {
-                    "edit": "Edit",
-                    "clone": "Clone",
-                    "back-to-list": "Back to List",
-                    "save": "Save",
-                    "cancel": "Cancel"
+                    "edit": "Modifier",
+                    "clone": "Dupliquer",
+                    "back-to-list": "Retourner à la liste",
+                    "save": "Sauvegarder",
+                    "cancel": "Annuler"
                 },
                 "details": {
-                    "character-details": "Character Details",
-                    "background": "Background",
-                    "goals": "Goals",
-                    "ties": "Ties"
+                    "character-details": "Détails du personnage",
+                    "background": "Histoire",
+                    "goals": "Objectifs",
+                    "ties": "Liens"
                 },
                 "details-background": {
-                    "background": "Background"
+                    "background": "Histoire"
                 },
                 "details-goals": {
-                    "goals": "Goals"
+                    "goals": "Objectifs"
                 },
                 "details-ties": {
-                    "ties": "Ties"
+                    "ties": "Liens"
                 },
                 "equipment": {
-                    "equipment-and-gear": "Equipment & Gear",
-                    "quantity": "Quantity",
-                    "weight": "Weight",
-                    "cost": "Cost",
+                    "equipment-and-gear": "Equipement et Matériel",
+                    "quantity": "Quantité",
+                    "weight": "Poids",
+                    "cost": "Coût",
                     "notes": "Notes",
-                    "carrying": "Carrying",
-                    "add-equipment": "Add Equipment"
+                    "carrying": "Porté",
+                    "add-equipment": "Ajouter un Equipement"
                 },
                 "notes": {
                     "notes": "Notes"
                 },
                 "notes-private": {
-                    "notes-private": "Private Notes",
-                    "these-are-private": "These notes are only visible to you and will not be visible to anyone else"
+                    "notes-private": "Notes privées",
+                    "these-are-private": "Ces notes sont uniquement visibles par vous et par personne d'autre"
                 },
                 "player-header": {
-                    "placeholder-name": "Name",
+                    "placeholder-name": "Nom",
                     "placeholder-image-url": "Image URL",
                     "placeholder-race": "Race",
-                    "placeholder-class": "Class",
-                    "placeholder-social-class": "Background/Social Class",
-                    "placeholder-specialization": "Specialization",
+                    "placeholder-class": "Classe",
+                    "placeholder-social-class": "Histoire/Classe sociale",
+                    "placeholder-specialization": "Spécialisation",
                     "placeholder-age": "Age",
-                    "placeholder-weight": "Weight",
-                    "placeholder-height": "Height",
-                    "placeholder-notable-features": "Notable Features",
+                    "placeholder-weight": "Poids",
+                    "placeholder-height": "Taille",
+                    "placeholder-notable-features": "Signes particuliers",
                     "label-race": "Race",
                     "label-class": "Class",
                     "label-social-class": "Background/Social Class",
