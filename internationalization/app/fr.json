@@ -1557,40 +1557,40 @@
                     "placeholder-height": "Taille",
                     "placeholder-notable-features": "Signes particuliers",
                     "label-race": "Race",
-                    "label-class": "Class",
-                    "label-social-class": "Background/Social Class",
-                    "label-specialization": "Specialization",
+                    "label-class": "Classe",
+                    "label-social-class": "Histoire/Classe sociale",
+                    "label-specialization": "Spécialisation",
                     "label-age": "Age",
-                    "label-weight": "Weight",
-                    "label-height": "Height",
-                    "label-notable-features": "Notable Features"
+                    "label-weight": "Poids",
+                    "label-height": "Taille",
+                    "label-notable-features": "Signes particuliers"
                 },
                 "talents": {
                     "talents": "Talents",
-                    "specializations": "Specializations",
+                    "specializations": "Spécialisations",
                     "description": "Description",
-                    "novice": "Novice",
-                    "journeyman": "Journeyman",
-                    "master": "Master"
+                    "novice": "Apprenti",
+                    "journeyman": "Voyageur",
+                    "master": "Maître"
                 },
                 "weapons": {
-                    "weapons": "Weapons",
-                    "attack": "Attack",
-                    "damage": "Damage",
-                    "range": "Range",
-                    "reload": "Reload",
-                    "equipped": "Equipped",
-                    "weapon-type": "Weapon Type",
-                    "weapon-group": "Weapon Group",
-                    "trained": "Trained",
-                    "yes": "Yes",
-                    "no": "No",
-                    "ability": "Ability",
+                    "weapons": "Armes",
+                    "attack": "Attaque",
+                    "damage": "Dégâts",
+                    "range": "portée",
+                    "reload": "Rechargement",
+                    "equipped": "Equipé",
+                    "weapon-type": "Type d'arme",
+                    "weapon-group": "Groupe d'arme",
+                    "trained": "Entraîné",
+                    "yes": "Oui",
+                    "no": "Non",
+                    "ability": "Aptitude",
                     "focus": "Focus",
                     "talents": "Talents",
-                    "magic": "Magic",
+                    "magic": "Magie",
                     "notes": "Notes",
-                    "price": "Price"
+                    "price": "Prix"
                 }
             }
         },
@@ -1697,6 +1697,66 @@
     },
     "game": {
         "components": {
+            "settings-discord": {
+                "card-title": "Paramètres Discord",
+                "dice-size-placeholder": "Taille des dés",
+                "dice-channel-placeholder": "Salon de dés",
+                "initiative-channel-placeholder": "Salon d'initiative",
+                "destiny-channel-placeholder": "Salon destiné",
+                "story-points-channel-placeholder": "Salon Points narratifs ",
+                "server-management-button-text": "Gestion du serveur",
+                "refresh-channels-button-text": "Actualiser salons",
+                "no-channel-text": "Aucun salon"
+            },
+            "settings-game-tokens": {
+                "card-title": "Tokens",
+                "available-tokens-label": "Vos tokens disponibles",
+                "no-tokens-available-label": "Aucun token disponible",
+                "attach-token-button-text": "Attacher un Token à cette table",
+                "attached-tokens-label": "Tokens utilisés",
+                "none": "Aucun",
+                "confirm-token-removal-title": "Retirer le token de cette table de jeu",
+                "confirm-token-removal-message": "Etes-vous sûr de vouloir retirer votre token de cette table ? Toutes les fonctionnalités débloqués par ce token ne  seront plus accessibles. Voulez-vous vraiment retirer le token ?",
+                "cancel-button-text": "Annuler",
+                "remove-button-text": "retirer",
+                "attach-button-text": "Token attaché",
+                "confirm-attach-single-token-title": "Attacher un Token à cette table",
+                "confirm-attach-single-token-message": "Etes-vous sûr de vouloir attacher votre token à cette table ?"
+            },
+            "settings-general": {
+                "card-title": "Général",
+                "game-name-placeholder": "Nom de la partie",
+                "change-game-type-button-text": "Changer",
+                "game-master-label": "Meneur de Jeu",
+                "game-master-label-plural": "Meneurs de Jeu",
+                "no-game-master-text": "Aucun",
+                "add-game-master-placeholder": "Ajouter un Meneur de Jeu",
+                "gm-destiny-point-style-placeholder": "Style Côté Obscur",
+                "gm-story-point-style-placeholder": "Style des Points narratifs MJ",
+                "pc-destiny-point-style-placeholder": "Style Côté Clair",
+                "pc-story-point-style-placeholder": "Style des Points narratifs PJ",
+                "must-be-gm-role": "Pourquoi est-ce desactivé ?",
+                "game-table-token-required": "Pouruoi certaines options sont indisponibles ?",
+                "gm-role-required-text-no-existing-gm": "Seul un MJ peut modifier ces champs. Ajoutez-vous en tant que  MJ pour être capable de mettre à jour ces champs.",
+                "gm-role-required-text-existing-gms": "Seul un MJ peut modifier ces champs. Demandez à l'un d'eux de vous ajouter en tant que Mj ou de faire la modification pour vous.",
+                "table-token-required-text": "Ces valeurs nécessitent qu'un token soit attaché à votre table pour pouvoir y accéder."
+            },
+            "settings-player-options": {
+                "card-title": "Options Joueurs",
+                "character-image-alt-text": "Image personnage",
+                "no-character-text": "Aucun personnage",
+                "personal-vehicle-alt-text": "Vaisseau personnel",
+                "no-personal-vehicle-text": "Pas de vaisseau personnel",
+                "party-vehicle-alt-text": "Vaisseau de la partie",
+                "no-party-vehicle-text": "Aucun vaisseau de la partie",
+                "character-select-placeholder": "Personnage",
+                "none-option-text": "Aucun",
+                "allow-gm-control-checkbox-label": "Autoriser le contrôle du MJ",
+                "personal-vehicle-placeholder": "Véhicule personnel",
+                "party-vehicle-placeholder": "Véhicule de la partie",
+                "character-option-active": "Actif",
+                "character-option-active-title": "Le personnage marqué comme \"Active\" est celui utilisé par le bot par défaut."
+            },
             "game-list-card": {
                 "settings-button-text": "Paramètres",
                 "game-table-view-button-text": "Table de Jeu",
@@ -1747,7 +1807,7 @@
                 "roll-crit-text": "Lancer Critique",
                 "plus-10-to-crit-button-text": "+10",
                 "minus-10-to-crit-button-text": "-10",
-                "no-dice-channel-selected-error": "Aucun canal sélectionné pour les dés - Les lancer ne seront pas transmis à Discord. Choisissez un canal dans les paramètres de la partie"
+                "no-dice-channel-selected-error": "Aucun salon sélectionné pour les dés - Les lancer ne seront pas transmis à Discord. Choisissez un canal dans les paramètres de la partie"
             },
             "table-destiny": {
                 "no-points.comment": "The below text is shown when there are no destiny/story points on the current game table",
@@ -1768,6 +1828,11 @@
             }
         },
         "overlays": {
+            "attach-token": {
+                "overlay-title": "Token attaché",
+                "token-select-message": "Choisissez quel token vous voulez attacher à cette table.",
+                "confirm-button-text": "Selectionner",
+                "cancel-button-text": "Annuler",
             "new-game-prompt": {
                 "prompt-title": "Choisissez une plateforme pour votre nouvelle partie",
                 "create-discord-game-title": "Ajouter partie Discord",
@@ -1799,6 +1864,13 @@
                 "refreshing-list": "Actualisation de la liste des canaux...",
                 "cancel": "Annuler",
                 "refresh": "Actualiser"
+            },
+            "settings-change-game-type": {
+                "overlay-title": "Type de partie",
+                "game-type-select-placeholder": "Type de partie",
+                "change-game-type-warning": "ATTENTION : Changer le type de partie va remettre à zéro tous les paramètres MJ et PJ de cette partie. Etes-vous sûr de vouloir le faire ?",
+                "cancel-button-text": "Annuler",
+                "confirm-button-text": "Changer le type de partie"
             }
         },
         "pages": {
@@ -1855,6 +1927,27 @@
                 "personal-vehicle-placeholder": "Véhicule personnel",
                 "game-type-change-warning": "ATTENTION : Changer le type de partie va forcer tous les joueurs à choisir de nouveaux personnages et véhicules compatible avec le nouveau Type de partie.",
                 "allow-gm-control": "Autoriser contrôle par MJ"
+            },
+            "settings": {
+                "game-settings-header": "Paramètres de la partie",
+                "return-button-text": "Retour"
+            },
+            "split": {
+                "server-management-header": "Gestion du serveur",
+                "refresh-channels-button-text": "Actualiser",
+                "return-to-settings-button-text": "Retour aux paramètres.",
+                "members-label": "Membres",
+                "channels-label": "Salons",
+                "no-assigned-channels-text": "Aucun salon assigné",
+                "game-name-placeholder": "Nom de la partie",
+                "create-table-button-text": "Créer une nouvelle table de jeu",
+                "add-member-button-text": "Ajouter un membre",
+                "choose-member-placeholder": "Choisir le membre",
+                "add-channel-button-text": "Ajouter un salon",
+                "choose-channel-placeholder": "Choisir le salon",
+                "delete-table-button-text": "Supprimer cette table de jeu",
+                "discord-game-only-error": "Cette zone est accessible uniquement pour les parties basées sur Discord.",
+                "add-member-instruction-text": "Pour ajouter un nouveau membre à cette partie, utiliser la commande .join dans les des salons liés à cette table."
             }
         }
     },
@@ -1872,7 +1965,10 @@
         "components": {
             "action-bar": {
                 "link-copied": "Lien copié !",
-                "settings-updated-confirmation": "Paramètres mis à jour !"
+                "settings-updated-confirmation": "Paramètres mis à jour !",
+                "settings-button-text": "Paramètres",
+                "copy-link-button-text": "Copier lien",
+                "back-to-list-button-text": "Retour à la liste"
             },
             "ffg-gen": {
                 "character-hud": {
@@ -1883,7 +1979,8 @@
                     "DefenseMelee": "CaC",
                     "DefenseRanged": "D",
                     "Encumbrance": "Enc",
-                    "no-character": "Aucun personnage selectionné"
+                    "no-character": "Aucun personnage selectionné",
+                    "Count": "Compte"
                 },
                 "panel-character-list": {
                     "characters": "Personnages",
@@ -1892,7 +1989,17 @@
                     "character-placeholder-text": "Personnage",
                     "Wounds": "B",
                     "Strain": "S",
-                    "Crits": "Critiques"
+                    "Crits": "Critiques",
+                    "Defense": "D",
+                    "defense-melee": "CaC",
+                    "defense-ranged": "Dist",
+                    "adversary": "Adversité",
+                    "Count": "Compte",
+                    "kick-character-title": "Retirer personnage",
+                    "kick-character-message": "Etes-vous sûr de vouloir retirer {{characterName}}?",
+                    "kick-character-confirm-button-text": "Retirer",
+                    "kick-character-success": "{{characterName}} a été retiré de la partie.",
+                    "add-another-character": "Ajouter un autre personnage"
                 },
                 "dice-roller": {
                     "roll-crit-this-pc-button-text": "Lancer le Critique pour ce PJ",
@@ -1900,15 +2007,36 @@
                     "plus-10-to-crit-button-text": "+10",
                     "minus-10-to-crit-button-text": "-10",
                     "roll-dice-button": "Lancer le dé",
+                    "passed-dice": "Dés donnés",
+                    "pass-dice-button": "Donner les dés",
                     "description-placeholder": "Description",
                     "skill-placeholder": "Choisir une Compétence",
-                    "no-dice-channel-selected-error": "Aucun canal de selectionnez - Les lancers ne seront pas transmis sur Discord. Selectionnez un canal dans les paramètres de jeu",
+                    "no-dice-channel-selected-error": "Aucun salon sélectionné pour les dés - Les lancers ne seront pas transmis sur Discord. Selectionnez un canal dans les paramètres de jeu",
                     "rolled-from-game-table": "Lancer via la Table de Jeu",
                     "initiative": "Initiative"
                 },
                 "panel-adversaries": {
                     "Adversaries": "Adversaires",
                     "coming-soon": "A venir bientôt !"
+                },
+                "panel-talents": {
+                    "Talents": "Talents",
+                    "ranks-label": "Rangs",
+                    "no-talents-warning-text": "Aucun talent"
+                },
+                "panel-weapons": {
+                    "Weapons": "Armes",
+                    "engaged": "Cont",
+                    "short": "Cour",
+                    "medium": "Moy",
+                    "long": "Long",
+                    "extreme": "Extr",
+                    "crit": "Crit",
+                    "no-selected-character": "Aucun personnage selectionné",
+                    "weapons-hidden": "Arme inconnue",
+                    "build-pool": "Ajouter un dé",
+                    "dual-wield": "A 2 mains",
+                    "remove-dual-wield": "Retirer A 2 mains"
                 }
             },
             "ffg-sw": {
@@ -1921,7 +2049,8 @@
                     "DefenseRanged": "D",
                     "Encumbrance": "Enc",
                     "no-character": "Aucun personnage selectionné",
-                    "adversary": "Adversité"
+                    "adversary": "Adversité",
+                    "Count": "Compte"
                 },
                 "panel-character-list": {
                     "characters": "Personnages",
@@ -1934,7 +2063,13 @@
                     "Defense": "D",
                     "defense-melee": "CaC",
                     "defense-ranged": "D",
-                    "adversary": "Adversité"
+                    "adversary": "Adversité",
+                    "Count": "Compte",
+                    "kick-character-title": "Kick Character",
+                    "kick-character-message": "Are you sure you want to kick {{characterName}}?",
+                    "kick-character-confirm-button-text": "Kick",
+                    "kick-character-success": "{{characterName}} has been removed from the game.",
+                    "add-another-character": "Add Another Character"
                 },
                 "dice-roller": {
                     "roll-crit-this-pc-button-text": "Lancer le Critique pour ce PJ",
@@ -1942,9 +2077,11 @@
                     "plus-10-to-crit-button-text": "+10",
                     "minus-10-to-crit-button-text": "-10",
                     "roll-dice-button": "Lancer le dé",
+                    "passed-dice": "Dés donnés",
+                    "pass-dice-button": "Donner dés",
                     "description-placeholder": "Description",
                     "skill-placeholder": "Choisir une Compétence",
-                    "no-dice-channel-selected-error": "Aucun canal de selectionnez - Les lancers ne seront pas transmis sur Discord. Selectionnez un canal dans les paramètres de jeu",
+                    "no-dice-channel-selected-error": "Aucun salon sélectionné pour les dés - Les lancers ne seront pas transmis sur Discord. Selectionnez un canal dans les paramètres de jeu",
                     "rolled-from-game-table": "Lancer via la Table de Jeu",
                     "initiative": "Initiative"
                 },
@@ -1952,6 +2089,7 @@
                     "Adversaries": "Adversaires",
                     "coming-soon": "A venir bientôt !",
                     "add-new-adversary": "Ajouter Nouvel Adversaire",
+                    "show-npc-full": "Montrer tous les détails PNJ",
                     "remove-npc": "Retirer PNJ",
                     "show-npc": "Montrer PNJ",
                     "show-name": "Montrer Nom",
@@ -1959,6 +2097,20 @@
                     "show-stats": "Montrer Stats",
                     "show-crits": "Montrer Défense/Crits",
                     "show-adversary": "Montrer Adversité"
+                },
+                "panel-weapons": {
+                    "Weapons": "armes",
+                    "engaged": "Cont",
+                    "short": "Cour",
+                    "medium": "Moy",
+                    "long": "Long",
+                    "extreme": "Extr",
+                    "crit": "Crit",
+                    "no-selected-character": "Aucun personnage selectionné",
+                    "weapons-hidden": "Arme inconnue",
+                    "build-pool": "Ajouter un dé",
+                    "dual-wield": "A 2 mains",
+                    "remove-dual-wield": "Retirer A 2 mains"
                 }
             },
             "panel-history": {
@@ -1979,7 +2131,7 @@
                 "reset-initiative-button-text": " Recommencer",
                 "clear-initiative-button-text.comment": "The below text is used on the button that lets a user CLEAR initiative - all slots are removed and the round is set back to 1",
                 "clear-initiative-button-text": "Supprimer",
-                "no-dice-channel-selected-error": "Aucun canal de dé selectionné - Les jets ne seront pas copiés sur Discord. Veuillez choisir un canal dans les paramètres de jeu.",
+                "no-dice-channel-selected-error": "Aucun salon sélectionné pour les dés - Les jets ne seront pas copiés sur Discord. Veuillez choisir un canal dans les paramètres de jeu.",
                 "activate-initiative-rolls": "Départ Jets Initiative",
                 "deactivate-initiative-rolls": "Arrêt Jets Initiative"
             },

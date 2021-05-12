@@ -2072,11 +2072,11 @@
                     "defense-ranged": "R",
                     "adversary": "Adversary",
                     "Count": "Count",
-                    "kick-character-title": "Kick Character",
-                    "kick-character-message": "Are you sure you want to kick {{characterName}}?",
-                    "kick-character-confirm-button-text": "Kick",
-                    "kick-character-success": "{{characterName}} has been removed from the game.",
-                    "add-another-character": "Add Another Character"
+                    "kick-character-title": "Retirer personnage",
+                    "kick-character-message": "Etes-vous sûr de vouloir retirer {{characterName}}?",
+                    "kick-character-confirm-button-text": "Retirer",
+                    "kick-character-success": "{{characterName}} a été retiré de la partie.",
+                    "add-another-character": "Ajouter un autre personnage"
                 },
                 "dice-roller": {
                     "roll-crit-this-pc-button-text": "Roll Crit for this PC",
